@@ -1,11 +1,13 @@
 require 'pry'
  require_relative '../lib/concerns.rb/memorable.rb'
  require_relative '../lib/concerns.rb/findable.rb'
+ require_relative '../
  
 
 
 class Artist
   extend Memorable, Findable 
+  include Paramble
   
   
   attr_accessor :name
