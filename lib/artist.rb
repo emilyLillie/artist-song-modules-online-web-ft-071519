@@ -1,7 +1,7 @@
 require 'pry'
  require_relative '../lib/concerns.rb/memorable.rb'
  require_relative '../lib/concerns.rb/findable.rb'
- require_relative '../
+ require_relative '../lib/concerns.rb/paramble.rb'
  
 
 
